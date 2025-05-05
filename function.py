@@ -28,4 +28,8 @@ def cadastrar (nome, idade):
         "idade": idade,
     }
     return print(data)
-cadastrar("Miguel", "16")
+
+nome = input("Digite seu nome: ")
+idade = int(input("Digite a sua idade: "))  
+
+cadastrar("nome", "idade")
